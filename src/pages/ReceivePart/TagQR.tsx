@@ -258,7 +258,7 @@ const FormTag: React.FC<any> = ({ visible, handleCloseModelTag, tag }) => {
         } else {
           color = "#CC0000";
         }
-        return <h1 style={{ color: color }}>{text}</h1>;
+        return <h4 style={{ color: color }}>{text}</h4>;
       },
     },
     {
