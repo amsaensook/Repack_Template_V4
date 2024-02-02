@@ -92,7 +92,7 @@ const QrCodePrint: React.FC<any> = (props) => {
           let text = '';
           let encoded = base64_encode(codeJson);
           let url_name = URLQrCode?.data.data[0].URL_Name;
-          const url_qr = url_name+"/toto-warranty/service?info="+encoded;
+          const url_qr = url_name+"/toto_warranty/ProductList?info="+encoded;
 
           if(obj.Product_ID == 4){
             text = item.Lot_No + ' (' + item.Series + ')';

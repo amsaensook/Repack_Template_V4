@@ -63,8 +63,8 @@ for (var i = 0; i < obj.QTY; i++) {
           const CodeQR = JSON.stringify(codeNew);
           let encoded = base64_encode(CodeQR);
           let url_name = URLQrCode?.data.data[0].URL_Name;
-          const url_qr = url_name+"/toto-warranty/service?info="+encoded;
-          //const url_qr = "https://as-spare-part.ttlsystem.com:5001/toto-warranty/service?info="+encoded;
+          const url_qr = url_name+"/toto_warranty/ProductList?info="+encoded;
+          //const url_qr = "https://as-spare-part.ttlsystem.com:5001/toto_warranty/service?info="+encoded;
 
           return (
             <>
